@@ -1,0 +1,116 @@
+
+        #header{
+            position:absolute;
+            top:0px;
+            left:65px;
+            background:#C11B17;
+            height:18%;
+            width:1230px;
+            border:1px solid #7F4E52;
+        }
+        #navbar{
+            position:absolute;
+            top:200px;
+            left:10px;
+    
+            height:40px;
+            width:1365px;
+        }
+        #navbar2{
+            position:absolute;
+            top:102px;
+            left:65px;
+            background:#C11B17;
+            height:90%;
+            width:200px;
+        }
+        #button{
+            background:white;
+            height:30px;
+            width:198px;
+            border:1px solid #7F4E52;
+
+        }
+        #button:hover{
+            background:#FFEFD5;
+                     }
+                
+        #dataarea{
+            position:absolute;
+            top:102px;
+            left:265px;
+            width:1030px;
+            height:90%;
+            background:#FFEFD5;
+            border:1px solid #7F4E52;
+        }
+        #tabtxt1{
+            border:0px;
+            width:100px;
+        }
+        #buttxt{
+            position:absolute;
+            top:6px;
+            left:50px;
+            color:#C11B17;
+            font-weight:bold;
+            font-style: normal;
+            text-decoration:none;
+            font-size:18;
+        }
+        #navbar3
+        {
+            position:absolute;
+            top:125px;
+            left:325px;
+            width:1000px;
+        }
+         #button_top{
+            background:white;
+            height:30px;
+            width:160px;
+            border:1px solid #7F4E52;
+            color:#C11B17;
+            font-weight:bold;
+            font-style: normal;
+            text-decoration:none;
+            font-size:18;
+
+        }
+        #button_top:hover
+        {
+            background:#C11B17;
+            color:white;
+        }
+                     
+         #buttxt_top{
+            position:absolute;
+            top:6px;
+            left:30px;
+        }
+        #submit_button{
+            width:80px;
+            height:30px;
+            position:absolute;
+            top:340px;
+            left:120px
+        }
+        #st1
+        {
+            position:absolute;
+            top:200px;
+            left:400px;
+            width:400px;
+        }
+        #st2
+        {
+            position:absolute;
+            top:200px;
+            left:400px;
+            width:600px;
+        }
+        #update_button{
+            position:absolute;
+            top:90%;
+            left:80%;
+        }

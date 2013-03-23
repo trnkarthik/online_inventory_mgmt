@@ -1,0 +1,226 @@
+
+<style>
+
+#st1
+
+{
+
+ position:absolute;
+
+ top:200px;
+
+ left:400px;
+
+ width:400px;
+
+}
+
+#update_button{
+
+ position:absolute;
+
+ top:90%;
+
+ left:50%;
+
+}
+
+</style>
+
+<script>
+
+function f1(a)
+
+{
+
+ var k=document.getElementById(a);
+
+ k.disabled="disabled";
+
+}
+
+function f2(a)
+
+{
+
+ var k=document.getElementById(a);
+
+ k.disabled=false;
+
+}
+
+</script>
+
+
+
+ <html>
+
+  <head>
+
+   <title>hi</title>
+
+<html>
+
+    <head>
+
+        <title>Books and items</title>
+
+        <link rel="stylesheet" type="text/css" href="template_style.css" />
+
+    </head>
+
+    <body>
+
+        <div id=header >                                                            <!--header comes here-->
+
+                <a href=home.php style="text-decoration:none">
+
+                    <img src="books.jpg" style="position:absolute;left:0px" width=200>
+
+                    <span style="color:white;font-size:30px;text-decoration:none;position:absolute;top:25px;left:550px;font-weight:bold">
+
+                        Books Store                                                 <!--title comes here-->
+
+                    </span></a>
+
+                    <span style="color:white;font-size:15px;text-decoration:none;position:absolute;top:60px;left:575px;font-style:italic">
+
+                                                  <!--caption comes here-->
+
+                    </span></a>
+
+        </div>
+
+          <div id=navbar2>                 <!-- left navigation bar comes here-->
+
+            <a href="home.php" style="text-decoration:none">
+
+                <div id=button style="position:absolute;left:0px;top:70px;">
+
+                    <span id=buttxt style="position:absolute;left:50px;top:6px;">Master Entry</span>
+
+                </div>
+
+            </a>
+
+            <br/>
+
+                <a href="" style="text-decoration:none">
+
+                <div id=button style="position:absolute;left:0px;top:120px;">
+
+                  <span id=buttxt style="position:absolute;left:42px;top:6px;">Customer Entry</span>
+
+                </div>
+
+                </a>
+
+                <br/>
+
+                 
+
+        </div>
+
+        <div id=dataarea>                        <!--Data comes here-->
+
+            
+
+        </div>
+
+        
+
+          <div id=navbar3 >                         <!--Top bar comes here-->
+
+              
+
+                <a href="master_entry_new_title.php" style="text-decoration:none">
+
+                <div id=button_top >
+
+                  <span id=buttxt_top>New Title</span>
+
+                </div>
+
+                </a>
+
+                <a href="new_stock_mod.php" style="text-decoration:none">
+
+                <div id=button_top style="position:absolute;top:0px;left:170px">
+
+                  <span id=buttxt_top>New Stock</span>
+
+                </div>
+
+                </a>
+
+                <a href="master_entry_modify_stock.php" style="text-decoration:none">
+
+                <div id=button_top style="position:absolute;top:0px;left:340px">
+
+                  <span id=buttxt_top>Modify Stock</span>
+
+                </div>
+
+                </a>
+
+                <a href="master_entry_delete_titles.php" style="text-decoration:none">
+
+                <div id=button_top style="position:absolute;top:0px;left:510px">
+
+                  <span id=buttxt_top>Delete Titles</span>
+
+                </div>
+
+                </a>
+
+            
+
+        </div>  
+
+        
+
+        
+
+        
+
+    </body>
+
+</html>  </head>
+
+  <body>
+
+   
+
+<form action='new_stock_update.php' method='post'>
+ <table border=5px id=st1>
+  <th>  </th>
+  <th>  Book/Item ID  </th>
+  <th>Quantity </th>
+  <tr>
+   <td  style='color:red;width:40px' ><input type='checkbox' onclick='if(this.checked==true){f2(0)}else{f1(0)}' name=0 ></td>
+   <td><center>1001</center></td>
+   <td><center> <input type='text' disabled='disabled' value=5 id=0 name=1></center> </td>
+  </tr>
+  <tr>
+   <td  style='color:red;width:40px' ><input type='checkbox' onclick='if(this.checked==true){f2(2)}else{f1(2)}' name=2 ></td>
+   <td><center>1002</center></td>
+   <td><center> <input type='text' disabled='disabled' value=4 id=2 name=3></center> </td>
+  </tr>
+  <tr>
+   <td  style='color:red;width:40px' ><input type='checkbox' onclick='if(this.checked==true){f2(4)}else{f1(4)}' name=4 ></td>
+   <td><center>1004</center></td>
+   <td><center> <input type='text' disabled='disabled' value=6 id=4 name=5></center> </td>
+  </tr>
+ </table>
+ 
+ <input type='submit' value='Update' id=update_button></form>
+
+ <!--page counter-->
+
+
+
+<span style='position:absolute;top:21%;left:85%;border:2px solid black'>Page Visits :  324</span>
+
+  </body>
+
+ </html>
